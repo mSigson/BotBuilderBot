@@ -1,0 +1,29 @@
+﻿{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "version": "1.0",
+  "type": "AdaptiveCard",
+  "style": "emphasis",
+  "speak": "Your meeting with Awesome Team Meeting consists of these items; ...",
+  "body": [
+    {
+      "type": "TextBlock",
+      "text": "Awesome Team Meeting",
+      "weight": "bolder",
+      "size": "large", 
+      "spacing": "medium"
+    },
+    {
+      "type": "TextBlock",
+      "text": "Mon, Jul 29 8:30 AM",
+      "spacing": "none"
+    },
+    {
+      "type": "TextBlock",
+      "text": "How can I be a better manager?"
+    },
+    {
+      "type": "TextBlock",
+      "text": "Where would you like to be in 6 months?"
+    }
+  ]
+}
